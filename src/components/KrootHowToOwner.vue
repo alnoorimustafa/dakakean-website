@@ -26,6 +26,7 @@ import ContactUs from './ContactUs.vue'
       </p>
     </div>
     <hr class="mb-4 mt-4" />
+
     <div class="px-4 pt-4">
       <h1 class="fs-5 text-gold mb-4">لماذا يعد ولاء الزبائن مهمًا ؟</h1>
       <li>
@@ -50,6 +51,7 @@ import ContactUs from './ContactUs.vue'
       </li>
     </div>
     <hr class="mb-4 mt-4" />
+
     <div class="px-4 pt-4">
       <h1 class="fs-5 text-gold mb-4">ماهي العوامل التي تتحكم بولاء الزبائن ؟</h1>
       <li>
@@ -147,6 +149,7 @@ import ContactUs from './ContactUs.vue'
       </p>
     </div>
     <hr class="mb-4 mt-4" />
+
     <div class="px-4 pt-4">
       <h1 class="fs-5 text-gold mb-4">ماهي بطاقة الولاء او بطاقة المكافات ؟</h1>
       <div class="screenshot col-8 m-auto">
@@ -184,6 +187,7 @@ import ContactUs from './ContactUs.vue'
       </li>
     </div>
     <hr class="mb-4 mt-4" />
+
     <div class="px-4 pt-4">
       <h1 class="fs-5 text-gold mb-4">ما هي فوائد برنامج الولاء ؟</h1>
       <p>
@@ -272,6 +276,7 @@ import ContactUs from './ContactUs.vue'
       </p>
     </div>
     <hr class="mb-4 mt-4" />
+
     <div class="px-4 pt-4">
       <h1 class="fs-5 text-gold mb-4">احصائيات</h1>
       <p>بحث TAHL (2014) : تزيد برامج الولاء :</p>
@@ -308,6 +313,7 @@ import ContactUs from './ContactUs.vue'
       <p>62 %من الزبائن يقومون بزيارات أكثر إلى المتاجر التي تملك برنامج ولاء.</p>
     </div>
     <hr class="mb-4 mt-4" />
+
     <div class="px-4 pt-4">
       <h1 class="fs-5 text-gold mb-4">ولكن عملي ناجح لماذا قد احتاج لبرنامج ولاء لزبائني ؟</h1>
       <p>
@@ -339,50 +345,52 @@ import ContactUs from './ContactUs.vue'
         الزبائن الجدد والاحتفاظ بالموجودين لضمان مستقبل العمل وزيادة ارباحه في نفس الوقت
       </p>
     </div>
-
     <hr class="mb-4 mt-4" />
+
     <div class="px-4 pt-4">
       <h1 class="fs-5 text-gold mb-4">اشهر العلامات التجارية التي تمتلك برامج ولاء</h1>
       <p>
         يمكنك ملاحظة مدى اهمية برامج الولاء حينما ترى ان هذه الشركات العملاقة على الرغم من شهرتها
         وارباحها الكبيرة جدا اهتمت بانشاء برنامج ولاء خاص بها
       </p>
-      <ContentBlock
-        class="text-center"
-        image="/starbucks.png"
-        title="Starbucks"
-        subtitle="اشهر مقهى في العالم، يمتلك اكثر من 35,000 فرع في 80 دولة وبمبيعات 32 مليار دولار سنويا "
-      />
-      <ContentBlock
-        class="text-center"
-        image="/kfc.png"
-        title="KFC"
-        subtitle="اشهر مطعم دجاج مقلي في العالم، يمتلك اكثر من 25,000 فرع في 145 دولة وبمبيعات تتخطى 31 مليار دولار سنويا"
-      />
-      <ContentBlock
-        class="text-center"
-        image="/burgerking.png"
-        title="Burger King"
-        subtitle="من اشهر مطاعم البركر في العالم، يمتلك قرابة 20,000 فرع في 100 دولة وبمبيعات تتخطى 23 مليار دولار سنويا"
-      />
-      <ContentBlock
-        class="text-center"
-        image="/mcdonalds.png"
-        title="McDonalds"
-        subtitle="اشهر مطعم وجبات سريعة في العالم، يمتلك اكثر من 40,000 فرع في 120 دولة وبمبيعات تتخطى 23 مليار دولار سنويا"
-      />
-      <ContentBlock
-        class="text-center"
-        image="/subway.png"
-        title="Subway"
-        subtitle="اشهر مطعم سندويجات سريعة في العالم، يمتلك اكثر من 34,000 فرع في 93 دولة، وبمبيعات تتخطى 16 مليار دولار سنويا "
-      />
-      <ContentBlock
-        class="text-center"
-        image="/dunkin.png"
-        title="Dunkin Donut"
-        subtitle="اشهر متجر دونات في العالم ويمتلك اكثر من 13,000 فرع في 42 دولة وبمبيعات تجاوز مليار ونصف سنويا"
-      />
+      <div class="text-center justify-content-center">
+        <ContentBlock
+          class="text-center"
+          image="/starbucks.png"
+          title="Starbucks"
+          subtitle="اشهر مقهى في العالم، يمتلك اكثر من 35,000 فرع في 80 دولة وبمبيعات 32 مليار دولار سنويا "
+        />
+        <ContentBlock
+          class="text-center"
+          image="/kfc.png"
+          title="KFC"
+          subtitle="اشهر مطعم دجاج مقلي في العالم، يمتلك اكثر من 25,000 فرع في 145 دولة وبمبيعات تتخطى 31 مليار دولار سنويا"
+        />
+        <ContentBlock
+          class="text-center"
+          image="/burgerking.png"
+          title="Burger King"
+          subtitle="من اشهر مطاعم البركر في العالم، يمتلك قرابة 20,000 فرع في 100 دولة وبمبيعات تتخطى 23 مليار دولار سنويا"
+        />
+        <ContentBlock
+          class="text-center"
+          image="/mcdonalds.png"
+          title="McDonalds"
+          subtitle="اشهر مطعم وجبات سريعة في العالم، يمتلك اكثر من 40,000 فرع في 120 دولة وبمبيعات تتخطى 23 مليار دولار سنويا"
+        />
+        <ContentBlock
+          class="text-center"
+          image="/subway.png"
+          title="Subway"
+          subtitle="اشهر مطعم سندويجات سريعة في العالم، يمتلك اكثر من 34,000 فرع في 93 دولة، وبمبيعات تتخطى 16 مليار دولار سنويا "
+        />
+        <ContentBlock
+          class="text-center"
+          image="/dunkin.png"
+          title="Dunkin Donut"
+          subtitle="اشهر متجر دونات في العالم ويمتلك اكثر من 13,000 فرع في 42 دولة وبمبيعات تجاوز مليار ونصف سنويا"
+        />
+      </div>
     </div>
 
     <hr class="mb-4 mt-4" />
@@ -418,8 +426,8 @@ import ContactUs from './ContactUs.vue'
       </p>
       <p>
         <span class="text-green"> تحديثات فورية : </span>
-        تحديثات فورية: يمكن تحديث البطاقات الرقمية انيا. يمكنك إضافة مكافآت جديدة أو عروض أو تغييرات
-        جديدة لبرنامج الولاء بسرعة، مما يضمن أن الزبائن لديهم دائمًا أحدث المعلومات.
+        يمكن تحديث البطاقات الرقمية انيا. يمكنك إضافة مكافآت جديدة أو عروض أو تغييرات جديدة لبرنامج
+        الولاء بسرعة، مما يضمن أن الزبائن لديهم دائمًا أحدث المعلومات.
       </p>
       <p>
         <span class="text-green">الاشعارات</span>

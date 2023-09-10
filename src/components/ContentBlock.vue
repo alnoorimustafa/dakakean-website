@@ -14,9 +14,9 @@ export default {
 
 <template>
   <div class="container">
-    <div class="row justify-content-center align-items-center">
+    <div class="row justify-content-center align-items-center text-center">
       <div class="col-lg-4 col-sm-12 my-4">
-        <div class="image">
+        <div class="image text-center">
           <img :src="image" />
         </div>
       </div>
@@ -44,6 +44,7 @@ export default {
   max-width: 100%;
   max-height: 300px;
   height: auto;
+  margin: auto;
   object-fit: fill;
 }
 
