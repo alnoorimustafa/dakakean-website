@@ -4,7 +4,7 @@
       <button type="button" class="btn btn-dark mb-5 mt-5">الرجوع</button>
     </router-link>
     <div class="imageContainer">
-      <img src="kroot.png" alt="kroot app icon" />
+      <img src="/kroot.png" alt="kroot app icon" />
     </div>
     <h1 class="fs-1 text-green mb-5 text-center">تطبيق كروت</h1>
     <div class="row">
@@ -50,14 +50,14 @@
       <h1 class="fs-3 mb-4 text-center">نزل التطبيق</h1>
 
       <div class="row justify-content-center">
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
           <a
             href="https://play.google.com/store/apps/details?id=com.dakakean.kroot&pcampaignid=web_share"
           >
             <img src="/googleplay.png" alt="" />
           </a>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
           <a
             href="https://apps.apple.com/us/app/%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D9%83%D8%B1%D9%88%D8%AA/id6462827834"
           >
