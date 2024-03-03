@@ -12,6 +12,7 @@ import KrootHowToOwner from '@/components/KrootHowToOwner.vue'
 import KhasmHowToOwner from '@/components/KhasmHowToOwner.vue'
 import KrootView from '@/views/KrootView.vue'
 import KhasmView from '@/views/KhasmView.vue'
+import QRScreen from '@/views/QRScreen.vue'
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -70,6 +71,10 @@ const router = createRouter({
     {
       path: '/khasm/how-to-owner',
       component: KhasmHowToOwner
+    },
+    {
+      path: '/QR/Kroot',
+      component: QRScreen
     }
   ]
 })
