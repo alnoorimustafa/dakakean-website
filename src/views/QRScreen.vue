@@ -10,7 +10,7 @@
           <div
             class="gold rounded-4 selection d-flex align-items-center justify-content-center text-center text-center"
           >
-            <p class="text-white">كيف يعمل التطبيق للزبون</p>
+            <p class="text-white">كيف يعمل التطبيق</p>
           </div>
         </RouterLink>
       </div>
